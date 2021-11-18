@@ -2,6 +2,8 @@
 
 This container launches an API that predicts the outcome of a given match of 2 LaLiga clubs and the match date.
 
+execute: `cd api-laliga-predictions`
+
 ## Docker
 
 ### Build the container
