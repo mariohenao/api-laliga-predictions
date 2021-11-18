@@ -16,7 +16,7 @@ execute: `cd api-laliga-predictions`
 - `sudo docker run -dp 8080:8080 api-laliga:latest`
 
 ## Try the API
-In your Browser go to `localhost:8080/docs` and try the POST method "/predict", click on the "Try it out" and enter the input data, here is an example:
+In your Browser go to `localhost:8080/docs` and try the POST method "/predict", click on the "Try it out" button and enter the input data, here is an example:
 
 ### Example data
 input: `{"match": {"local": "Valencia", "visitor": "Real Mdrid", "date": "2004/12/06"}}`
